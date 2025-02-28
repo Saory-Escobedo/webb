@@ -1,0 +1,544 @@
+
+<!---Saory Monserrat Escobedo Guzman, grupo B,21 de febrero del 2025, introduccion a html5 y css3 -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 1</title>
+    <style>
+    
+     body{ 
+        margin: 0;
+     }
+     .texblanco{
+        color: #3d3d3d;
+        text-align: center;
+     }
+     .menu{
+        margin: 0;
+            width: 1950px;
+            height: 108px;
+            position:sticky;
+            top:0;
+            overflow: hidden;
+            background-color: #ffffff;
+            color: #ffffff;
+     }
+     .img1{
+         width: 1950px;
+         height: 1050px;
+         background-image:url(img/Artboard\ 1.png);
+         background-repeat: no-repeat;
+     }
+     .logo{
+        margin: 20px;
+     
+     }
+     .opc{
+        text-align: right;
+     }
+     h1{
+       font-size: 80px;
+       font-family:Arial, Helvetica, sans-serif;
+     }
+     .selecc{
+          text-align: right;
+           float: left;
+           margin-top: -90px;
+           margin-left: 790px;
+     }
+     h2{
+      margin: 30px;
+      text-align:center;
+      font-size: 30px;
+       font-family:Arial, Helvetica, sans-serif;
+     }
+     a{   /*para quitar lo azul y el subrayado*/
+       text-decoration-line: none;
+       color: inherit;
+     }
+     .texesp{
+      margin-left: 20px;
+     }
+     .imas{
+      float: left;
+      margin-left: 47px;
+      margin-top: 100px;
+     }
+     .animacion{
+      transition: transform 0.3s ease;
+     }
+
+     .animacion:hover{
+      transform: scale(1.02);
+     }
+     
+
+     h3{
+      text-align: center;
+      font-size: 50px;
+      font-family:Arial, Helvetica, sans-serif;
+     }
+
+     .rec{
+      margin-left: -190px;
+      margin-bottom: -200px;
+     }
+ 
+     .prec{
+      float: left;
+      margin-left: 9px;
+      margin-top: 16px;
+     }
+     .imas2{
+      float: left;
+      margin-left: 97px;
+      margin-top: 100px;
+     }
+
+    </style>
+</head>
+
+<body>
+   
+    <div class="menu">
+   
+         <div class="logo">
+           <!--aca van las cosas del menu-->
+           <a href=""><img width="262" height="59" src="img/Asset 21.png"> </img></a>
+        </div>
+        
+        <div class="selecc"> <!-- aca van las cosas de opciones de menu-->
+          <h2 style="color: rgb(27, 27, 27);">
+               <a href="#sob" class="texesp">Sobre nosotros</a>
+               <a href="#ubic" class="texesp">Donde nos ubicamos</a>
+               <a href="#cont" class="texesp">Contacto</a>
+          </h2>
+        </div>
+         
+    </div>
+    <!--aqui esta la imagen de la portada de inicio-->
+    <div class="img1"></div>
+
+    <br></br>
+    <br></br>
+   <center><h1 class="texblanco"> Colección </h1></center>
+
+   <!--este es un codigo para la animacion con mouse :3-->
+
+   <div class="animacion">
+       <div class="imas">
+         <a href="#vest">  
+         <img width="580" height="738" src="img/VESTIDOS.png"></img>
+         </a>
+       </div>
+   </div>
+
+
+<a href="#suda">
+   <div class="animacion">
+      <div class="imas"> 
+       <img width="580" height="738" src="img/SUDADERAS.png"></img>     
+      </div>
+   </div>
+</a>   
+
+<a href="#pant">
+   <div class="animacion">
+      <div class="imas">
+       <img width="580" height="738" src="img/PANTALONES.png"></img>
+      </div>
+   </div>
+</a>
+   <!--aca empieza la parte de los vatos :O-->
+
+<a href="#cham">
+   <div class="animacion">
+      <div class="imas">
+      <img width="580" height="738" src="img/CHAMMARAS.png"></img>
+      </div>
+   </div>
+</a>
+
+<a href="#saco">
+   <div class="animacion">
+      <div class="imas"> 
+       <img width="580" height="738" src="img/SACOS.png"></img>
+      </div>
+   </div>
+</a>   
+
+<a href="#play">
+   <div class="animacion">
+      <div class="imas">
+       <img width="580" height="738" src="img/PLAYERAS.png"></img>
+      </div>
+   </div>
+</a>
+   
+<!--VESTIDOS-->
+   <br></br>
+   
+      <div class="rec">
+         <img width="2278" height="434" src="img/blanco.png"></img>
+          <div id="vest"></div>
+         <img width="2278" height="434" src="img/TITULO VESTIDO.png"></img>
+        
+      </div>
+
+ <!--VESTIDOS IMAGEN-->
+<div class="animacion">  
+   <div class="imas2">
+      <img width="340" height="498" src="img/vestido 1.jpg"></img>
+   </div>
+</div>
+
+<div class="animacion">
+   <div class="imas2">
+      <img width="340" height="498" src="img/vestido 2.jpg"></img>
+   </div> 
+</div>   
+   
+<div class="animacion">
+   <div class="imas2">   
+      <img width="340" height="498" src="img/vestido 3.jpg"></img>
+   </div>
+</div>
+
+<div class="animacion">   
+   <div class="imas2">
+      <img width="340" height="498" src="img/vestido 4.jpg"></img>
+   </div>   
+</div>   
+
+<!--precios de vestidos-->
+   <div class="prec">
+    <img width="445" height="125" src="img/PRECIO 1.png"></img>
+   </div>
+
+   <div class="prec">
+      <img width="445" height="125" src="img/PRECIO 2.png"></img>
+   </div>
+
+   <div class="prec">
+      <img width="445" height="125" src="img/PRECIO 3.png"></img>
+   </div>
+
+   <div class="prec">
+      <img width="445" height="125" src="img/PRECIO 4.png"></img>
+   </div>
+
+
+
+
+<!--SUDADERAS-->
+<br></br>
+   
+<div class="rec">
+   <img width="2278" height="200" src="img/blanco.png"></img>
+   <div id="suda"></div>
+   <img width="2278" height="434" src="img/TITULO SUDADERAS.png"></img>
+   
+</div>
+
+<!--SUDADERAS IMAGEN-->
+<div class="animacion">  
+<div class="imas2">
+<img width="340" height="498" src="img/sudadera 1.jpg"></img>
+</div>
+</div>
+
+<div class="animacion">
+<div class="imas2">
+<img width="340" height="498" src="img/sudadera 2.jpg"></img>
+</div> 
+</div>   
+
+<div class="animacion">
+<div class="imas2">   
+<img width="340" height="498" src="img/sudadera 3.jpg"></img>
+</div>
+</div>
+
+<div class="animacion">   
+<div class="imas2">
+<img width="340" height="498" src="img/sudadera 4.jpg"></img>
+</div>   
+</div>   
+
+<!--precios de SUADADERAS-->
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 5.png"></img>
+</div>
+
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 6.png"></img>
+</div>
+
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 7.png"></img>
+</div>
+
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 8.png"></img>
+</div>
+
+
+
+<!--PANTALONES-->
+<br></br>
+   
+<div class="rec">
+   <img width="2278" height="200" src="img/blanco.png"></img>
+   <div id="pant"></div>
+   <img width="2278" height="434" src="img/TITULO PANTALONES.png"></img>
+   
+</div>
+
+<!--PANTALONES IMAGEN-->
+<div class="animacion">  
+<div class="imas2">
+<img width="340" height="498" src="img/pantalon 1.jpg"></img>
+</div>
+</div>
+
+<div class="animacion">
+<div class="imas2">
+<img width="340" height="498" src="img/pantalon 2.jpg"></img>
+</div> 
+</div>   
+
+<div class="animacion">
+<div class="imas2">   
+<img width="340" height="498" src="img/pantalon 3.jpg"></img>
+</div>
+</div>
+
+<div class="animacion">   
+<div class="imas2">
+<img width="340" height="498" src="img/pantalon 4.jpg"></img>
+</div>   
+</div>   
+
+<!--precios de PANTALONES-->
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 3.png"></img>
+</div>
+
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 2.png"></img>
+</div>
+
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 4.png"></img>
+</div>
+
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 6.png"></img>
+</div>
+
+
+
+
+<!--CHAMARRAS-->
+<br></br>
+   
+<div class="rec">
+   <img width="2278" height="200" src="img/blanco.png"></img>
+   <div id="cham"></div>
+   <img width="2278" height="434" src="img/TITULO CHAMARRAS.png"></img>
+   
+</div>
+
+<!--CHAMARRAS IMAGEN-->
+<div class="animacion">  
+<div class="imas2">
+<img width="340" height="498" src="img/chamarra 1.jpg"></img>
+</div>
+</div>
+
+<div class="animacion">
+<div class="imas2">
+<img width="340" height="498" src="img/chamarra 2.jpg"></img>
+</div> 
+</div>   
+
+<div class="animacion">
+<div class="imas2">   
+<img width="340" height="498" src="img/chamarra 3.jpg"></img>
+</div>
+</div>
+
+<div class="animacion">   
+<div class="imas2">
+<img width="340" height="498" src="img/chamarra 4.jpg"></img>
+</div>   
+</div>   
+
+<!--precios de CHAMARRAS-->
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 7.png"></img>
+</div>
+
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 4.png"></img>
+</div>
+
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 5.png"></img>
+</div>
+
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 1.png"></img>
+</div>
+
+
+
+
+<!--Sacos-->
+<br></br>
+   
+<div class="rec">
+   <img width="2278" height="200" src="img/blanco.png"></img>
+   <div id="saco"></div>
+   <img width="2278" height="434" src="img/TITULO SACOS.png"></img>
+   
+</div>
+
+<!--sacos IMAGEN-->
+<div class="animacion">  
+<div class="imas2">
+<img width="340" height="498" src="img/saco 1.jpg"></img>
+</div>
+</div>
+
+<div class="animacion">
+<div class="imas2">
+<img width="340" height="498" src="img/saco 2.jpg"></img>
+</div> 
+</div>   
+
+<div class="animacion">
+<div class="imas2">   
+<img width="340" height="498" src="img/saco 3.jpg"></img>
+</div>
+</div>
+
+<div class="animacion">   
+<div class="imas2">
+<img width="340" height="498" src="img/saco 4.jpg"></img>
+</div>   
+</div>   
+
+<!--precios de sacos-->
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 2.png"></img>
+</div>
+
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 3.png"></img>
+</div>
+
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 7.png"></img>
+</div>
+
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 6.png"></img>
+</div>
+
+
+<!--playeras-->
+<br></br>
+   
+<div class="rec">
+   <img width="2278" height="200" src="img/blanco.png"></img>
+   <div id="play"></div>
+   <img width="2278" height="434" src="img/TITULO PLAYERAS.png"></img>
+   
+</div>
+
+<!--playera IMAGEN-->
+<div class="animacion">  
+<div class="imas2">
+<img width="340" height="498" src="img/playera 1.jpg"></img>
+</div>
+</div>
+
+<div class="animacion">
+<div class="imas2">
+<img width="340" height="498" src="img/playera 2.jpg"></img>
+</div> 
+</div>   
+
+<div class="animacion">
+<div class="imas2">   
+<img width="340" height="498" src="img/playera 3.jpg"></img>
+</div>
+</div>
+
+<div class="animacion">   
+<div class="imas2">
+<img width="340" height="498" src="img/playera 4.jpg"></img>
+</div>   
+</div>   
+
+<!--precios de playera-->
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 4.png"></img>
+</div>
+
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 6.png"></img>
+</div>
+
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 1.png"></img>
+</div>
+
+<div class="prec">
+<img width="445" height="125" src="img/PRECIO 5.png"></img>
+</div>
+
+
+<br></br>
+    <br></br>
+   <img width="2278" height="200" src="img/blanco.png"></img>
+   <div id="sob"></div>
+   <center><h1 class="texblanco"> Sobre nosotros </h1></center>
+   <br></br>
+   <br></br>
+   <h2 style="color: #3d3d3d;">En DRESS YSELF, nos apasiona ofrecer prendas de calidad que reflejan estilo, comodidad y sostenibilidad.
+   <h2 style="color: #3d3d3d;">Desde nuestro inicio en 1992, hemos trabajado con el compromiso de brindar a nuestros clientes colecciones</h2>    
+   <h2 style="color: #3d3d3d;">que no solo sigan las últimas tendencias, sino que también respeten el medio ambiente. Utilizamos materiales</h2>   
+   <h2 style="color: #3d3d3d;">eco-amigables y apoyamos prácticas responsables para reducir nuestra huella de carbono.</h2>
+
+
+   <br></br>
+    <br></br>
+    <img width="2278" height="200" src="img/blanco.png"></img>
+    <div id="ubic"></div>
+   <center><h1 class="texblanco"> Donde nos ubicamos </h1></center>
+   <br></br>
+   <br></br>
+   <h2 style="color: #3d3d3d;">DRESS YSELF se ubica en:  (100% real no fake) </h2>
+   <center>
+   <iframe width="1200" height="900" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.0908043946656!2d-106.45450542551407!3d31.740722336224213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e7595ad4dee483%3A0x205ab965506d453!2sPlaza%20De%20las%20Am%C3%A9ricas!5e0!3m2!1ses!2smx!4v1740706972404!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </center>
+
+    <br></br>
+    <br></br>
+    <img width="2278" height="200" src="img/blanco.png"></img>
+    <div id="cont"></div>
+   <center><h1 class="texblanco"> Contacto </h1></center>
+   <h2 style="color: #3d3d3d;">¿tienes dudas o quieres colaborar con nosotros? </h2>
+   <h2 style="color: #3d3d3d;">contactanos y cuentanos sobre tus ideas al siguiente correo y siguenos en nuestas redes sociales:</h2>
+   <center><img width="1055" height="486" src="img/contacto.png"></img></center>
+   <br></br>
+   <br></br>
+</body>
+
+
+</html>
+
