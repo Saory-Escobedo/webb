@@ -1,0 +1,383 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef3e2;
+}
+
+/* Barra de navegación */
+#header {
+    margin:auto;
+    
+}
+
+nav {
+    background-color: #fffdff;
+    padding: 10px;
+    text-align: center;
+    opacity: 80%;
+    position: sticky;
+    top: 0;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
+
+nav ul li a {
+    color: #111111;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display:block;
+}
+
+.nav li a {
+    background-color:#fffdff;
+    
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+nav ul li ul li{
+    display:block
+    
+}
+
+/* Header */
+header {
+    text-align: center;
+    
+    color: white;
+}
+header img{
+    width: auto;
+    height: 1080px;
+}
+header h1 {
+    font-size: 48px;
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    color: #111111;
+}
+
+header p {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #111111;
+}
+
+/* Productos */
+.producto {
+    display: inline-block;
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+    background-color: #ffecd1;
+    margin: 10px;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+
+    .producto img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    transition: 1s ease;
+    }
+
+.producto h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #8b5729;
+    color: #fffdff;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+section {
+    width: auto;
+    height: auto;
+    background-color: #4f5e69;
+}
+p{
+    font-family: "Pacifico", cursive;
+    color: #8b5729;
+    font-size: 20px;
+}
+div h1 {
+    font-size: 48px;
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    color: #8b5729;
+}
+
+
+/*parte de saory y codigo*/
+.menu{
+    margin: -10;
+        width: 1982px;
+        height: 108px;
+        position:sticky;
+        top:0;
+        overflow: hidden;
+        background-color: #fffffff0;
+        color: #fffffff0;
+}
+
+.img1 {
+margin-top: -108px;
+width: 1982px;
+height: 1080px;
+background-image: url(img/Screenshot\ 2025-03-27\ at\ 6.15.12\ PM.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+ .texesp{
+  margin-left: 190px;
+}
+
+a{   /*para quitar lo azul y el subrayado*/
+   text-decoration-line: none;
+   color: inherit;
+ }
+ 
+ .selecc{
+      text-align: right;
+       float: left;
+       margin-top: -70px;
+       margin-left: 500px;
+ }
+ h2{
+  margin: 30px;
+  text-align:center;
+  font-size: 30px;
+  font-family: 'Arial', sans-serif;
+ }
+ .colorPas1{  /* no se ha aplicado*/
+    margin-left: 411px;
+    width: 1571px;
+    height: 370px;
+    background-color: #cce0bc;
+ }
+
+ .colorPas2{  /* no se ha aplicado*/
+    width: 1571px;
+    height: 370px;
+    background-color: #dccdb7;
+ }
+
+ .colorPas3{  /* no se ha aplicado*/
+    margin-left: 411px;
+    width: 1571px;
+    height: 370px;
+    background-color: #986a50;
+ }
+
+ .colorPas4{  /* no se ha aplicado*/
+    width: 1982px;
+    background-color: #dbd9d9;
+ }
+
+
+ .animacion{
+  transition: transform 0.3s ease;
+ }
+
+ .animacion:hover{
+  transform: scale(1.02);
+ }
+
+ .zoom-container {
+        width: 511px; /* Ajusta el tamaño del contenedor */
+        height: 370px;
+        overflow: hidden; /* Oculta la parte fuera del contenedor */
+        position: relative;
+    }
+
+    .zoom-container2 {
+        width: 573px; /* Ajusta el tamaño del contenedor */
+        height: 371px;
+        overflow: hidden; /* Oculta la parte fuera del contenedor */
+        position: relative;
+    }
+
+    .zoom-container2 img {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.5s ease-in-out; /* Transición suave */
+    }
+
+    .zoom-container2:hover img {
+        transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+    }
+
+
+    .zoom-container img {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.5s ease-in-out; /* Transición suave */
+    }
+
+    .zoom-container:hover img {
+        transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+    }
+
+    .espacolo{
+        margin-left: 70px;
+    }
+    .imgTam{
+        margin-left: -411px;
+    }
+    .imgTam2{
+        margin-left: 1410px;
+    }
+    .bodyh3{
+        margin-top: -400px;
+        margin-left: 100px;
+        font-size: 70px;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .bodyh32{
+        margin-top: -400px;
+        margin-left: 70px;
+        font-size: 70px;
+        font-family: 'Arial', sans-serif;
+    }
+    .esti{
+        font-size: 40px;
+        font-family: 'Arial', sans-serif;
+    }
+    .icon{
+        margin-top: -100px;
+    }
+
+    #header {
+margin:auto;
+
+}
+
+nav {
+background-color: #fffdff;
+padding: 10px;
+text-align: center;
+opacity: 80%;
+position: sticky;
+top: 0;
+}
+
+ul, ol {
+list-style:none;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+
+nav ul li {
+display: inline-block;
+
+}
+
+nav ul li a {
+color: #111111;
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+text-transform: uppercase;
+display:block;
+}
+
+.nav li a {
+background-color:#fffdff;
+
+text-decoration:none;
+padding:10px 12px;
+display:block;
+}
+
+
+
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+
+.nav li:hover > ul {
+display:block;
+}
+
+nav ul li ul li{
+display:block
+
+}
+
+
+.ver{
+margin-top: -30px;
+transition: transform 0.3s ease;
+}
+
+.ver:hover{
+     transform: scale(1.02);
+   }
+
+.imgS{
+    margin-top: -50px;
+}
+#pasteles img{
+    height: 50px;
+}
+#galletas img{
+    height: 50px;
+}
+#cupcakes img{
+    height: 50px;
+}
